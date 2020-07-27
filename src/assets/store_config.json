@@ -1,0 +1,97 @@
+{
+  "store_name": "Awesome E-Commerce Store",
+  "store_slug": "react-stripe-store",
+  "api_key": "pk_test_51HAM42E0eSHN9fSpMDvQnwAZPzQ9rNDogYlTqIGLoMNshZwIZb5ud8UNQu4XLIOwrLUUOFf7mCjBip4FAWOn05UH00m9Se60kx",
+  "colors": {
+    "primary": {
+      "main": "#003b6f",
+      "dark": "#1d1d1d",
+      "contrastText": "#FFF"
+    },
+    "secondary": {
+      "main": "#ff5100"
+    }
+  },
+  "products": [
+    {
+      "name": "Campera",
+      "url": "hoodie",
+      "stripe_id": "prod_Hjq9KVG93iCsWG",
+      "description": "campera de frizza",
+      "photos": ["blackHoodie.jpg", "greyHoodie.jpg"],
+      "details": ["Campera perfecta"],
+      "variants": [
+        {
+          "name": "Size",
+          "options": [
+            { "label": "Small" },
+            { "label": "Medium" },
+            { "label": "Large" },
+            { "label": "X-Large" },
+            { "label": "XX-Large" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remera",
+      "url": "shirt",
+      "stripe_id": "prod_HjqEXLpcKHO5gP",
+      "description": "Remera de algodón",
+      "photos": ["blackShirt.jpg", "whiteShirt.jpg"],
+      "details": ["remera de algodón varios colores"],
+      "variants": [
+        {
+          "name": "Size",
+          "options": [
+            { "label": "Small" },
+            { "label": "Medium" },
+            { "label": "Large" },
+            { "label": "X-Large" },
+            { "label": "XX-Large" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Buzo",
+      "url": "hoodieReverse",
+      "stripe_id": "prod_HjqFhCRMBx8TYf",
+      "description": "Buzo de friza",
+      "photos": ["greyHoodie.jpg", "blackHoodie.jpg"],
+      "details": ["buzo de friza"],
+      "variants": [
+        {
+          "name": "Size",
+          "options": [
+            { "label": "Small" },
+            { "label": "Medium" },
+            { "label": "Large" },
+            { "label": "X-Large" },
+            { "label": "XX-Large" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Way to Cool of a Shirt",
+      "url": "shirtReverse",
+      "stripe_id": "Oh Look Another Stripe Product ID",
+      "description": "The Coolest Shirt Ever!",
+      "photos": ["whiteShirt.jpg", "blackShirt.jpg"],
+      "details": ["This Shirt Is Cooler Than Your Shirt"],
+      "variants": [
+        {
+          "name": "Size",
+          "options": [
+            { "label": "Small" },
+            { "label": "Medium" },
+            { "label": "Large" },
+            { "label": "X-Large" },
+            { "label": "XX-Large" }
+          ]
+        }
+      ]
+    }
+  ]
+}
